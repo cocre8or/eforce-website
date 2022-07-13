@@ -71,9 +71,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="mobile-menu nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="appointment.html">Appointment</a></li>
-              <li> <a href="contact-us.html">Contact Us</a> </li>
+              <li class="active"><a href="index.php">Home</a></li>
+              <!--<li><a href="appointment.php">Appointment</a></li>-->
+              <li> <a href="contact-us.php">Contact Us</a> </li>
             </ul>
           </div>
           <!-- /.navbar-collapse --> 
@@ -260,7 +260,7 @@
           <div class="extralinks-cols">
             <ul class="extralinks-col">
               <li> <a href="javascript:void(0)">Home</a> </li>
-              <li> <a href="javascript:void(0)">Make An Appointment</a> </li>
+              <!--<li> <a href="javascript:void(0)">Make An Appointment</a> </li>-->
               <li> <a href="javascript:void(0)">Contact Us</a> </li>
             </ul>
           </div>

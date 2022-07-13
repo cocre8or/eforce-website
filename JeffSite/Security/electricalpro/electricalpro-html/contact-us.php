@@ -71,9 +71,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="mobile-menu nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="appointment.html">Make An Appointment</a></li>
-              <li> <a href="contact-us.html">Contact Us</a> </li>
+              <li class="active"><a href="index.php">Home</a></li>
+              <!--<li><a href="appointment.php">Make An Appointment</a></li>-->
+              <li> <a href="contact-us.php">Contact Us</a> </li>
             </ul>
           </div>
           <!-- /.navbar-collapse --> 
@@ -93,7 +93,7 @@
       <div class="col-sm-5">
         <div class="inner-breadcrumb">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>Contact Us</li>
           </ul>
         </div>
@@ -108,7 +108,7 @@
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <div class="contact-form">
-          <form>
+          <form action="email.php" method="POST">
             <div class="form-group">
               <input placeholder="Name" name="name" required class="form-control form-item" type="text">
             </div>
@@ -188,7 +188,7 @@
           <div class="extralinks-cols">
             <ul class="extralinks-col">
               <li> <a href="javascript:void(0)">Home</a> </li>
-              <li> <a href="javascript:void(0)">Appointment</a> </li>
+              <!--<li> <a href="javascript:void(0)">Appointment</a> </li>-->
               <li> <a href="javascript:void(0)">Contact Us</a> </li>
             </ul>
           </div>
